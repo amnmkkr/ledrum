@@ -1,0 +1,33 @@
+{
+  "id": "ledrum",
+  "version": "0.1.0",
+  "compatible_from": "0.1.0",
+  "name": "LEDrum",
+  "short": "LEDR",
+  "licence": "GPL-3.0-only",
+  "pitch": "note",
+  "page2": "params",
+  "page2_title": "LEDRUM MORE",
+  "knobs": [
+    { "p": 1,  "long": "Coarse Tune",     "short": "TUNE",   "look": "dial",     "text": "number",  "default": 36 },
+    { "p": 2,  "long": "Fine Tune",        "short": "FINE",   "look": "centred",  "text": "bipolar", "default": 64 },
+    { "p": 3,  "long": "Waveform",         "short": "WAVE",   "look": "list",     "text": "enum",    "default": 0,
+      "names": ["Sine", "Tri", "Saw", "Rect", "Noise", "PWM"] },
+    { "p": 4,  "long": "Mod Tune",         "short": "MOD",    "look": "dial",     "text": "number",  "default": 48 },
+    { "p": 5,  "long": "FM Amount",        "short": "FM",     "look": "dial",     "text": "number",  "default": 20 },
+    { "p": 6,  "long": "Osc Mix",     "short": "MIX",    "look": "list",     "text": "enum",    "default": 0,
+      "names": ["FM", "Add"] },
+    { "p": 7,  "long": "Filter Freq",      "short": "FREQ",   "look": "dial",     "text": "number",  "default": 90 },
+    { "p": 8,  "long": "Filter Reso",      "short": "RESO",   "look": "dial",     "text": "number",  "default": 10 },
+    { "p": 9,  "long": "Filter Type",      "short": "FTYP",   "look": "list",     "text": "enum",    "default": 1,
+      "names": ["Off", "LP", "HP", "BP", "UBP", "Notch"] },
+    { "p": 10, "long": "Amp Attack",       "short": "ATK",    "look": "dial",     "text": "number",  "default": 0 },
+    { "p": 11, "long": "Amp Decay",        "short": "DEC",    "look": "dial",     "text": "number",  "default": 70 },
+    { "p": 12, "long": "Amp Slope",        "short": "SLP",    "look": "centred",  "text": "bipolar", "default": 80 },
+    { "p": 13, "long": "Pitch Decay",      "short": "PDEC",   "look": "dial",     "text": "number",  "default": 40 },
+    { "p": 14, "long": "Pitch Amt",     "short": "PAMT",   "look": "dial",     "text": "number",  "default": 50 },
+    { "p": 15, "long": "Transient",   "short": "TRAN",   "look": "list",     "text": "enum",    "default": 0,
+      "names": ["Off", "Offset", "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12"] },
+    { "p": 16, "long": "Distortion",       "short": "DIST",   "look": "dial",     "text": "number",  "default": 0 }
+  ]
+}
